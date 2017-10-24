@@ -1,0 +1,265 @@
+/************************************
+           Custom Styles
+************************************/
+*{
+  border: 1px dashed black;
+}
+
+body {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: -webkit-linear-gradient(to right, #AAAAAA, #DDDDDD);/*TEMP-Need to adjust the colro scheme*/
+  background:    -moz-linear-gradient(to right, #AAAAAA, #DDDDDD);
+  background:         linear-gradient(to right, #AAAAAA, #DDDDDD);
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+}
+
+
+/************************************
+              Grid
+************************************/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+
+          box-sizing: border-box;
+  }
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.group:before,text-decoration: none;
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/**********************************
+            Typography
+**********************************/
+h1, h2 {
+  color: #111;
+}
+
+h1, h2, p {
+  margin-bottom: 22px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+  text-transform: uppercase;h
+}
+
+cite,
+em {
+  font-style: italic;
+}
+
+/*********************************
+              Links
+*********************************/
+a {
+  text-decoration: none;
+  color: #99ff99;
+}
+
+a:hover {
+  color: #001A00;
+}
+
+a:visited {
+  color: #111;
+}
+
+.primary-header a:hover {
+  color: #99ff99;
+}
+
+a.selected {
+  background-color: #111;
+}
+
+a.telephone {
+  color: blue;
+  display: inline-block;
+}
+
+
+/*********************************
+          Primary Header
+*********************************/
+
+.logo img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
+  width: 45%;
+  height: 60%;
+}
+
+/*Temporary*/
+.logo {
+  font-size: 37px;
+  font-weight: 600;
+  font-family: Impact;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.primary-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.primary-nav li {
+  float: left;
+}
+
+.primary-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.primary-header li a:hover {
+  background-color: #111;
+}
+
+.primary-footer li a:hover {
+  color: #001A00;
+}
+
+.displayed {
+  display: inline;
+  margin-left: 30px;
+  width: 100%;
+  height: 180px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  }
+
+
+
+/*********************************
+          Primary Footer
+*********************************/
+
+.primary-footer {
+  color: #648880;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+  position: absolute;
+}
+
+/*********************************
+            Navigation
+*********************************/
+
+.nav {
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+/*******************************
+            Table
+********************************/
+table, th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  background-color: #001A00;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  border-bottom: 2px solid black;
+}
+
+td {
+  text-align: left;
+  border: 1px solid black;
+  width: 200px;
+}
+
+td:first-child {
+  width: auto;
+}
+
+table {
+  margin: 10px auto;
+  position: relative;
+  border-collapse: collapse;
+}
+
+.table {
+  width: 960px;
+}
